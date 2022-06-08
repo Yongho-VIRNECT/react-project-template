@@ -9,7 +9,7 @@ import {
 	Vector2,
 	Vector3,
 	VectorKeyframeTrack
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 
 function retarget( target, source, options = {} ) {

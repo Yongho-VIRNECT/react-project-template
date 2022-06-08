@@ -3,7 +3,7 @@ import {
 	Float32BufferAttribute,
 	OrthographicCamera,
 	Mesh
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class Pass {
 

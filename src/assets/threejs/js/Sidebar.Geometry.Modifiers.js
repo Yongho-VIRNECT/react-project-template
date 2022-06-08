@@ -1,4 +1,4 @@
-import { UIDiv, UIButton } from './libs/ui.js';
+import { UIDiv, UIButton } from '@/assets/threejs/ui/ui.js';
 
 function SidebarGeometryModifiers( editor, object ) {
 

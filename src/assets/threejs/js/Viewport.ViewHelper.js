@@ -1,6 +1,6 @@
-import { UIPanel } from './libs/ui.js';
+import { UIPanel } from '@/assets/threejs/ui/ui.js';
 
-import { ViewHelper as ViewHelperBase } from '../../examples/jsm/helpers/ViewHelper.js';
+import { ViewHelper as ViewHelperBase } from '@/assets/threejs/jsm/helpers/ViewHelper.js';
 
 class ViewHelper extends ViewHelperBase {
 

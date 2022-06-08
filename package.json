@@ -41,7 +41,8 @@
     "express": "^4.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-redux": "^8.0.2"
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.2",

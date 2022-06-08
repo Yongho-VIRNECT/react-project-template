@@ -1,4 +1,4 @@
-import { UIPanel } from './libs/ui.js';
+import { UIPanel } from '@/assets/threejs/ui/ui.js';
 
 import { MenubarAdd } from './Menubar.Add.js';
 import { MenubarEdit } from './Menubar.Edit.js';

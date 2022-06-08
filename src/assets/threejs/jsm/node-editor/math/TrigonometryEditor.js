@@ -1,6 +1,6 @@
 import { SelectInput, Element, LabelElement } from '../../libs/flow.module.js';
 import { BaseNode } from '../core/BaseNode.js';
-import { Vector3 } from 'three';
+import { Vector3 } from "@/assets/threejs/build/three.module.js";
 import { MathNode, UniformNode } from 'three-nodes/Nodes.js';
 
 const DEFAULT_VALUE = new UniformNode( new Vector3() );

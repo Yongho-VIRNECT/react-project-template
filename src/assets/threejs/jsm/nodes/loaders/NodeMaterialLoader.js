@@ -1,4 +1,4 @@
-import { MaterialLoader } from 'three';
+import { MaterialLoader } from "@/assets/threejs/build/three.module.js";
 
 class NodeMaterialLoader extends MaterialLoader {
 

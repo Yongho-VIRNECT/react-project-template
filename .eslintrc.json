@@ -48,7 +48,8 @@
       }
     ],
     "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-    "no-param-reassign": ["error", { "props": false }]
+    "no-param-reassign": ["error", { "props": false }],
+    "no-extend-native": "warn"
   },
   "env": {
     "es6": true, // enable ES2015 features.

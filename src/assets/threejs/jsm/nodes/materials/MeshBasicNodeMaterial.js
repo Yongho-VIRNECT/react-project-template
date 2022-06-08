@@ -1,5 +1,5 @@
 import NodeMaterial from './NodeMaterial.js';
-import { MeshBasicMaterial } from 'three';
+import { MeshBasicMaterial } from "@/assets/threejs/build/three.module.js";
 
 const defaultValues = new MeshBasicMaterial();
 

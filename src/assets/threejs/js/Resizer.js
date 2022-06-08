@@ -1,4 +1,4 @@
-import { UIElement } from './libs/ui.js';
+import { UIElement } from '@/assets/threejs/ui/ui.js';
 
 function Resizer( editor ) {
 

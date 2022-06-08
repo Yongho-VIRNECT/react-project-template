@@ -1,7 +1,7 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UINumber, UIPanel, UIRow, UISelect, UIText } from './libs/ui.js';
-import { UIBoolean } from './libs/ui.three.js';
+import { UINumber, UIPanel, UIRow, UISelect, UIText } from '@/assets/threejs/ui/ui.js';
+import { UIBoolean } from '@/assets/threejs/ui/ui.three.js';
 
 function SidebarProjectRenderer( editor ) {
 

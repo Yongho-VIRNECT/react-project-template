@@ -1,6 +1,6 @@
-import { UIBreak, UIButton, UIInteger, UIPanel, UIProgress, UIRow, UIText } from './libs/ui.js';
+import { UIBreak, UIButton, UIInteger, UIPanel, UIProgress, UIRow, UIText } from '@/assets/threejs/ui/ui.js';
 
-import { APP } from './libs/app.js';
+import { APP } from '@/assets/threejs/js/app.js';
 
 function SidebarProjectVideo( editor ) {
 

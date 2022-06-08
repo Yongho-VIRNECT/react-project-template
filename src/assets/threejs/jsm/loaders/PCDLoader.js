@@ -6,7 +6,7 @@ import {
 	LoaderUtils,
 	Points,
 	PointsMaterial
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class PCDLoader extends Loader {
 

@@ -9,7 +9,7 @@ import {
 	ShaderChunk,
 	ShaderLib,
 	UniformsUtils,
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class PackedPhongMaterial extends MeshPhongMaterial {
 

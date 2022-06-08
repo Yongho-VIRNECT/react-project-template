@@ -1,8 +1,8 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIPanel, UIRow, UIHorizontalRule } from './libs/ui.js';
+import { UIPanel, UIRow, UIHorizontalRule } from '@/assets/threejs/ui/ui.js';
 
-import { AddObjectCommand } from './commands/AddObjectCommand.js';
+import { AddObjectCommand } from '@/assets/threejs/commands/AddObjectCommand.js';
 
 function MenubarAdd( editor ) {
 

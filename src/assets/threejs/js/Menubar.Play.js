@@ -1,4 +1,4 @@
-import { UIPanel } from './libs/ui.js';
+import { UIPanel } from '@/assets/threejs/ui/ui.js';
 
 function MenubarPlay( editor ) {
 

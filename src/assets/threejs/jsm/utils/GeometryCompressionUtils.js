@@ -10,7 +10,7 @@ import {
 	Matrix3,
 	Matrix4,
 	Vector3
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 import { PackedPhongMaterial } from './PackedPhongMaterial.js';
 
 

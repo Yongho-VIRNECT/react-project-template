@@ -1,7 +1,7 @@
-import { UIElement, UIPanel, UIText } from './libs/ui.js';
+import { UIElement, UIPanel, UIText } from '@/assets/threejs/ui/ui.js';
 
-import { SetScriptValueCommand } from './commands/SetScriptValueCommand.js';
-import { SetMaterialValueCommand } from './commands/SetMaterialValueCommand.js';
+import { SetScriptValueCommand } from '@/assets/threejs/commands/SetScriptValueCommand.js';
+import { SetMaterialValueCommand } from '@/assets/threejs/commands/SetMaterialValueCommand.js';
 
 function Script( editor ) {
 

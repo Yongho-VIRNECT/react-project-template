@@ -1,4 +1,4 @@
-import { UIPanel, UIButton, UICheckbox } from './libs/ui.js';
+import { UIPanel, UIButton, UICheckbox } from '@/assets/threejs/ui/ui.js';
 
 function Toolbar( editor ) {
 

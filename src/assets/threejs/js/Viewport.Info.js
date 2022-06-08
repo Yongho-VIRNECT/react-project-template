@@ -1,4 +1,4 @@
-import { UIPanel, UIBreak, UIText } from './libs/ui.js';
+import { UIPanel, UIBreak, UIText } from '@/assets/threejs/ui/ui.js';
 
 function ViewportInfo( editor ) {
 
@@ -32,6 +32,9 @@ function ViewportInfo( editor ) {
 	signals.geometryChanged.add( update );
 
 	//
+	function format(value){
+
+	}
 
 	function update() {
 
@@ -73,9 +76,9 @@ function ViewportInfo( editor ) {
 
 		}
 
-		objectsText.setValue( objects.format() );
-		verticesText.setValue( vertices.format() );
-		trianglesText.setValue( triangles.format() );
+		objectsText.setValue( objects );
+		verticesText.setValue( vertices );
+		trianglesText.setValue( triangles );
 
 	}
 

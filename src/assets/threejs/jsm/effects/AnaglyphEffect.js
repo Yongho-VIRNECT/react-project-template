@@ -10,7 +10,7 @@ import {
 	ShaderMaterial,
 	StereoCamera,
 	WebGLRenderTarget
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class AnaglyphEffect {
 

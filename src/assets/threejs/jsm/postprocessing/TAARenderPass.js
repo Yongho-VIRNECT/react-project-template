@@ -1,6 +1,6 @@
 import {
 	WebGLRenderTarget
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 import { SSAARenderPass } from './SSAARenderPass.js';
 
 /**

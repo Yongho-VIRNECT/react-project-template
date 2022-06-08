@@ -1,6 +1,6 @@
-import { Command } from '../Command.js';
+import { Command } from '@/assets/threejs/js/Command.js';
 
-import { ObjectLoader } from 'three';
+import { ObjectLoader } from "@/assets/threejs/build/three.module.js";
 
 /**
  * @param editor Editor

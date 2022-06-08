@@ -1,4 +1,4 @@
-import { UISelect } from './libs/ui.js';
+import { UISelect } from '@/assets/threejs/ui/ui.js';
 
 function ViewportCamera( editor ) {
 

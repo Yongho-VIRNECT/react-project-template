@@ -1,5 +1,5 @@
-import { UINumber, UIRow, UIText } from './libs/ui.js';
-import { SetMaterialRangeCommand } from './commands/SetMaterialRangeCommand.js';
+import { UINumber, UIRow, UIText } from '@/assets/threejs/ui/ui.js';
+import { SetMaterialRangeCommand } from '@/assets/threejs/commands/SetMaterialRangeCommand.js';
 
 function SidebarMaterialRangeValueProperty( editor, property, name, isMin, range = [ - Infinity, Infinity ], precision = 2, step = 1, nudge = 0.01, unit = '' ) {
 

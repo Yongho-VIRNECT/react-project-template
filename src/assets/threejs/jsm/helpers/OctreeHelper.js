@@ -1,58 +1,62 @@
 import {
-	LineSegments,
-	BufferGeometry,
-	Float32BufferAttribute,
-	LineBasicMaterial
-} from 'three';
+  BufferGeometry,
+  Float32BufferAttribute,
+  LineBasicMaterial,
+  LineSegments,
+} from "@/assets/threejs/build/three.module.js";
 
 class OctreeHelper extends LineSegments {
+  constructor(octree, color = 0xffff00) {
+    const vertices = [];
 
-	constructor( octree, color = 0xffff00 ) {
+    function traverse(tree) {
+      for (let i = 0; i < tree.length; i++) {
+        const { min } = tree[i].box;
+        const { max } = tree[i].box;
 
-		const vertices = [];
+        vertices.push(max.x, max.y, max.z);
+        vertices.push(min.x, max.y, max.z); // 0, 1
+        vertices.push(min.x, max.y, max.z);
+        vertices.push(min.x, min.y, max.z); // 1, 2
+        vertices.push(min.x, min.y, max.z);
+        vertices.push(max.x, min.y, max.z); // 2, 3
+        vertices.push(max.x, min.y, max.z);
+        vertices.push(max.x, max.y, max.z); // 3, 0
 
-		function traverse( tree ) {
+        vertices.push(max.x, max.y, min.z);
+        vertices.push(min.x, max.y, min.z); // 4, 5
+        vertices.push(min.x, max.y, min.z);
+        vertices.push(min.x, min.y, min.z); // 5, 6
+        vertices.push(min.x, min.y, min.z);
+        vertices.push(max.x, min.y, min.z); // 6, 7
+        vertices.push(max.x, min.y, min.z);
+        vertices.push(max.x, max.y, min.z); // 7, 4
 
-			for ( let i = 0; i < tree.length; i ++ ) {
+        vertices.push(max.x, max.y, max.z);
+        vertices.push(max.x, max.y, min.z); // 0, 4
+        vertices.push(min.x, max.y, max.z);
+        vertices.push(min.x, max.y, min.z); // 1, 5
+        vertices.push(min.x, min.y, max.z);
+        vertices.push(min.x, min.y, min.z); // 2, 6
+        vertices.push(max.x, min.y, max.z);
+        vertices.push(max.x, min.y, min.z); // 3, 7
 
-				const min = tree[ i ].box.min;
-				const max = tree[ i ].box.max;
+        traverse(tree[i].subTrees);
+      }
+    }
 
-				vertices.push( max.x, max.y, max.z ); vertices.push( min.x, max.y, max.z ); // 0, 1
-				vertices.push( min.x, max.y, max.z ); vertices.push( min.x, min.y, max.z ); // 1, 2
-				vertices.push( min.x, min.y, max.z ); vertices.push( max.x, min.y, max.z ); // 2, 3
-				vertices.push( max.x, min.y, max.z ); vertices.push( max.x, max.y, max.z ); // 3, 0
+    traverse(octree.subTrees);
 
-				vertices.push( max.x, max.y, min.z ); vertices.push( min.x, max.y, min.z ); // 4, 5
-				vertices.push( min.x, max.y, min.z ); vertices.push( min.x, min.y, min.z ); // 5, 6
-				vertices.push( min.x, min.y, min.z ); vertices.push( max.x, min.y, min.z ); // 6, 7
-				vertices.push( max.x, min.y, min.z ); vertices.push( max.x, max.y, min.z ); // 7, 4
+    const geometry = new BufferGeometry();
+    geometry.setAttribute("position", new Float32BufferAttribute(vertices, 3));
 
-				vertices.push( max.x, max.y, max.z ); vertices.push( max.x, max.y, min.z ); // 0, 4
-				vertices.push( min.x, max.y, max.z ); vertices.push( min.x, max.y, min.z ); // 1, 5
-				vertices.push( min.x, min.y, max.z ); vertices.push( min.x, min.y, min.z ); // 2, 6
-				vertices.push( max.x, min.y, max.z ); vertices.push( max.x, min.y, min.z ); // 3, 7
+    super(geometry, new LineBasicMaterial({ color, toneMapped: false }));
 
-				traverse( tree[ i ].subTrees );
+    this.octree = octree;
+    this.color = color;
 
-			}
-
-		}
-
-		traverse( octree.subTrees );
-
-		const geometry = new BufferGeometry();
-		geometry.setAttribute( 'position', new Float32BufferAttribute( vertices, 3 ) );
-
-		super( geometry, new LineBasicMaterial( { color: color, toneMapped: false } ) );
-
-		this.octree = octree;
-		this.color = color;
-
-		this.type = 'OctreeHelper';
-
-	}
-
+    this.type = "OctreeHelper";
+  }
 }
 
 export { OctreeHelper };

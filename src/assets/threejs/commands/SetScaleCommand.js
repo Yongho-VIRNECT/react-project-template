@@ -1,5 +1,5 @@
-import { Command } from '../Command.js';
-import { Vector3 } from 'three';
+import { Command } from '@/assets/threejs/js/Command.js';
+import { Vector3 } from "@/assets/threejs/build/three.module.js";
 
 /**
  * @param editor Editor

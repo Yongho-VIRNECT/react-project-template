@@ -23,7 +23,7 @@ import {
 	ClampToEdgeWrapping,
 	RepeatWrapping,
 	TextureLoader
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 const _taskCache = new WeakMap();
 

@@ -4,7 +4,7 @@ import {
 	ShaderMaterial,
 	UniformsUtils,
 	WebGLRenderTarget
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 import { Pass, FullScreenQuad } from './Pass.js';
 import { AfterimageShader } from '../shaders/AfterimageShader.js';
 

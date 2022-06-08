@@ -1,5 +1,5 @@
 import { GPULoadOp, GPUStoreOp } from './constants.js';
-import { Color } from 'three';
+import { Color } from "@/assets/threejs/build/three.module.js";
 
 let _clearAlpha;
 const _clearColor = new Color();

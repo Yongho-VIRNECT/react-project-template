@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
 function EditorControls( object, domElement ) {
 

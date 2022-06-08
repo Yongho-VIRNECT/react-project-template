@@ -1,6 +1,6 @@
-import { UIBreak, UIPanel, UIRow, UIText, UIListbox, UIButton } from './libs/ui.js';
+import { UIBreak, UIPanel, UIRow, UIText, UIListbox, UIButton } from '@/assets/threejs/ui/ui.js';
 
-import { SetMaterialCommand } from './commands/SetMaterialCommand.js';
+import { SetMaterialCommand } from '@/assets/threejs/commands/SetMaterialCommand.js';
 
 function SidebarProjectMaterials( editor ) {
 

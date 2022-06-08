@@ -1,11 +1,11 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UICheckbox, UIDiv, UINumber, UIRow, UIText } from './libs/ui.js';
-import { UITexture } from './libs/ui.three.js';
-import { SetMaterialMapCommand } from './commands/SetMaterialMapCommand.js';
-import { SetMaterialValueCommand } from './commands/SetMaterialValueCommand.js';
-import { SetMaterialRangeCommand } from './commands/SetMaterialRangeCommand.js';
-import { SetMaterialVectorCommand } from './commands/SetMaterialVectorCommand.js';
+import { UICheckbox, UIDiv, UINumber, UIRow, UIText } from '@/assets/threejs/ui/ui.js';
+import { UITexture } from '@/assets/threejs/ui/ui.three.js';
+import { SetMaterialMapCommand } from '@/assets/threejs/commands/SetMaterialMapCommand.js';
+import { SetMaterialValueCommand } from '@/assets/threejs/commands/SetMaterialValueCommand.js';
+import { SetMaterialRangeCommand } from '@/assets/threejs/commands/SetMaterialRangeCommand.js';
+import { SetMaterialVectorCommand } from '@/assets/threejs/commands/SetMaterialVectorCommand.js';
 
 function SidebarMaterialMapProperty( editor, property, name ) {
 

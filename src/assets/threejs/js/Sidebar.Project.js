@@ -1,4 +1,4 @@
-import { UIPanel, UIRow, UIInput, UICheckbox, UIText, UISpan } from './libs/ui.js';
+import { UIPanel, UIRow, UIInput, UICheckbox, UIText, UISpan } from '@/assets/threejs/ui/ui.js';
 
 /* import { SidebarProjectMaterials } from './Sidebar.Project.Materials.js'; */
 import { SidebarProjectRenderer } from './Sidebar.Project.Renderer.js';

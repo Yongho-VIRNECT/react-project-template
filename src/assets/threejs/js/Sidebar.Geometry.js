@@ -1,13 +1,13 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIPanel, UIRow, UIText, UIInput, UIButton, UISpan } from './libs/ui.js';
+import { UIPanel, UIRow, UIText, UIInput, UIButton, UISpan } from '@/assets/threejs/ui/ui.js';
 
-import { SetGeometryValueCommand } from './commands/SetGeometryValueCommand.js';
+import { SetGeometryValueCommand } from '@/assets/threejs/commands/SetGeometryValueCommand.js';
 
 import { SidebarGeometryBufferGeometry } from './Sidebar.Geometry.BufferGeometry.js';
 import { SidebarGeometryModifiers } from './Sidebar.Geometry.Modifiers.js';
 
-import { VertexNormalsHelper } from '../../examples/jsm/helpers/VertexNormalsHelper.js';
+import { VertexNormalsHelper } from '@/assets/threejs/jsm/helpers/VertexNormalsHelper.js';
 
 function SidebarGeometry( editor ) {
 

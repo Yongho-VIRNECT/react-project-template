@@ -1,7 +1,7 @@
 import {
 	Color,
 	MathUtils
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class Lut {
 

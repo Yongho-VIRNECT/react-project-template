@@ -1,14 +1,14 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIPanel, UIRow, UIInput, UIButton, UIColor, UICheckbox, UIInteger, UITextArea, UIText, UINumber } from './libs/ui.js';
-import { UIBoolean } from './libs/ui.three.js';
+import { UIPanel, UIRow, UIInput, UIButton, UIColor, UICheckbox, UIInteger, UITextArea, UIText, UINumber } from '@/assets/threejs/ui/ui.js';
+import { UIBoolean } from '@/assets/threejs/ui/ui.three.js';
 
-import { SetUuidCommand } from './commands/SetUuidCommand.js';
-import { SetValueCommand } from './commands/SetValueCommand.js';
-import { SetPositionCommand } from './commands/SetPositionCommand.js';
-import { SetRotationCommand } from './commands/SetRotationCommand.js';
-import { SetScaleCommand } from './commands/SetScaleCommand.js';
-import { SetColorCommand } from './commands/SetColorCommand.js';
+import { SetUuidCommand } from '@/assets/threejs/commands/SetUuidCommand.js';
+import { SetValueCommand } from '@/assets/threejs/commands/SetValueCommand.js';
+import { SetPositionCommand } from '@/assets/threejs/commands/SetPositionCommand.js';
+import { SetRotationCommand } from '@/assets/threejs/commands/SetRotationCommand.js';
+import { SetScaleCommand } from '@/assets/threejs/commands/SetScaleCommand.js';
+import { SetColorCommand } from '@/assets/threejs/commands/SetColorCommand.js';
 
 function SidebarObject( editor ) {
 

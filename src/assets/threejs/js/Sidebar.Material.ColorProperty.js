@@ -1,6 +1,6 @@
-import { UIColor, UINumber, UIRow, UIText } from './libs/ui.js';
-import { SetMaterialColorCommand } from './commands/SetMaterialColorCommand.js';
-import { SetMaterialValueCommand } from './commands/SetMaterialValueCommand.js';
+import { UIColor, UINumber, UIRow, UIText } from '@/assets/threejs/ui/ui.js';
+import { SetMaterialColorCommand } from '@/assets/threejs/commands/SetMaterialColorCommand.js';
+import { SetMaterialValueCommand } from '@/assets/threejs/commands/SetMaterialValueCommand.js';
 
 function SidebarMaterialColorProperty( editor, property, name ) {
 

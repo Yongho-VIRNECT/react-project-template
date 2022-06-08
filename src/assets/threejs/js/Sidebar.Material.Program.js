@@ -1,4 +1,4 @@
-import { UIButton, UIRow, UIText } from './libs/ui.js';
+import { UIButton, UIRow, UIText } from '@/assets/threejs/ui/ui.js';
 
 function SidebarMaterialProgram( editor, property ) {
 

@@ -1,6 +1,6 @@
 import { NodeUpdateType } from './constants.js';
 import { getNodesKeys } from './NodeUtils.js';
-import { MathUtils } from 'three';
+import { MathUtils } from "@/assets/threejs/build/three.module.js";
 
 let _nodeId = 0;
 

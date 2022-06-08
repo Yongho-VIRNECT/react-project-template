@@ -3,7 +3,7 @@ import {
 	Mesh,
 	BufferAttribute,
 	BufferGeometry
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 import { mergeGroups } from './BufferGeometryUtils.js';
 

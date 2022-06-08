@@ -1,5 +1,5 @@
 import NodeMaterial from './NodeMaterial.js';
-import { SpriteMaterial } from 'three';
+import { SpriteMaterial } from "@/assets/threejs/build/three.module.js";
 import {
 	vec2, vec3, vec4,
 	assign, add, mul, sub,

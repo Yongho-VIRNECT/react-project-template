@@ -1,6 +1,6 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIPanel, UIRow } from './libs/ui.js';
+import { UIPanel, UIRow } from '@/assets/threejs/ui/ui.js';
 
 function MenubarExamples( editor ) {
 

@@ -1,8 +1,8 @@
-import { UIPanel, UIBreak, UIText, UIButton, UIRow, UIInput } from './libs/ui.js';
+import { UIPanel, UIBreak, UIText, UIButton, UIRow, UIInput } from '@/assets/threejs/ui/ui.js';
 
-import { AddScriptCommand } from './commands/AddScriptCommand.js';
-import { SetScriptValueCommand } from './commands/SetScriptValueCommand.js';
-import { RemoveScriptCommand } from './commands/RemoveScriptCommand.js';
+import { AddScriptCommand } from '@/assets/threejs/commands/AddScriptCommand.js';
+import { SetScriptValueCommand } from '@/assets/threejs/commands/SetScriptValueCommand.js';
+import { RemoveScriptCommand } from '@/assets/threejs/commands/RemoveScriptCommand.js';
 
 function SidebarScript( editor ) {
 

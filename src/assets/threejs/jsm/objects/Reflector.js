@@ -9,7 +9,7 @@ import {
 	Vector3,
 	Vector4,
 	WebGLRenderTarget
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class Reflector extends Mesh {
 

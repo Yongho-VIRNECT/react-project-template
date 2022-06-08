@@ -1,9 +1,9 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { HTMLMesh } from '../../examples/jsm/interactive/HTMLMesh.js';
-import { InteractiveGroup } from '../../examples/jsm/interactive/InteractiveGroup.js';
+import { HTMLMesh } from '@/assets/threejs/jsm/interactive/HTMLMesh.js';
+import { InteractiveGroup } from '@/assets/threejs/jsm/interactive/InteractiveGroup.js';
 
-import { XRControllerModelFactory } from '../../examples/jsm/webxr/XRControllerModelFactory.js';
+import { XRControllerModelFactory } from '@/assets/threejs/jsm/webxr/XRControllerModelFactory.js';
 
 class VR {
 

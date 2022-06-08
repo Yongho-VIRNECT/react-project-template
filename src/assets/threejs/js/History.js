@@ -1,5 +1,5 @@
 
-import * as Commands from './commands/Commands.js';
+import * as Commands from '@/assets/threejs/commands/Commands.js';
 
 function History( editor ) {
 

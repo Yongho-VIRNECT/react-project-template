@@ -1,10 +1,10 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { RGBELoader } from '../../../examples/jsm/loaders/RGBELoader.js';
-import { TGALoader } from '../../../examples/jsm/loaders/TGALoader.js';
+import { RGBELoader } from '@/assets/threejs/jsm/loaders/RGBELoader.js';
+import { TGALoader } from '@/assets/threejs/jsm/loaders/TGALoader.js';
 
 import { UIElement, UISpan, UIDiv, UIRow, UIButton, UICheckbox, UIText, UINumber } from './ui.js';
-import { MoveObjectCommand } from '../commands/MoveObjectCommand.js';
+import { MoveObjectCommand } from '@/assets/threejs/commands/MoveObjectCommand.js';
 
 class UITexture extends UISpan {
 

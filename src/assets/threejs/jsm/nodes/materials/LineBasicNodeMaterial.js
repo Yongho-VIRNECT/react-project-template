@@ -1,5 +1,5 @@
 import NodeMaterial from './NodeMaterial.js';
-import { LineBasicMaterial } from 'three';
+import { LineBasicMaterial } from "@/assets/threejs/build/three.module.js";
 
 const defaultValues = new LineBasicMaterial();
 

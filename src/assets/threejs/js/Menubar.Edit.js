@@ -1,10 +1,10 @@
-import { Box3, Vector3 } from 'three';
+import { Box3, Vector3 } from "@/assets/threejs/build/three.module.js";
 
-import { UIPanel, UIRow, UIHorizontalRule } from './libs/ui.js';
+import { UIPanel, UIRow, UIHorizontalRule } from '@/assets/threejs/ui/ui.js';
 
-import { AddObjectCommand } from './commands/AddObjectCommand.js';
-import { RemoveObjectCommand } from './commands/RemoveObjectCommand.js';
-import { SetPositionCommand } from './commands/SetPositionCommand.js';
+import { AddObjectCommand } from '@/assets/threejs/commands/AddObjectCommand.js';
+import { RemoveObjectCommand } from '@/assets/threejs/commands/RemoveObjectCommand.js';
+import { SetPositionCommand } from '@/assets/threejs/commands/SetPositionCommand.js';
 
 function MenubarEdit( editor ) {
 

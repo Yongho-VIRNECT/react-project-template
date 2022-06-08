@@ -1,6 +1,6 @@
 import {
 	Vector2
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 /**
  * Normal map shader

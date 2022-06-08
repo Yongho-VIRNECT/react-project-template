@@ -1,6 +1,6 @@
-import { UIPanel, UIText, UIRow, UIInput } from './libs/ui.js';
+import { UIPanel, UIText, UIRow, UIInput } from '@/assets/threejs/ui/ui.js';
 
-import { RemoveObjectCommand } from './commands/RemoveObjectCommand.js';
+import { RemoveObjectCommand } from '@/assets/threejs/commands/RemoveObjectCommand.js';
 
 function SidebarSettingsShortcuts( editor ) {
 

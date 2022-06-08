@@ -5,7 +5,7 @@ import {
 	NumberKeyframeTrack,
 	Vector3,
 	VectorKeyframeTrack
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class AnimationClipCreator {
 

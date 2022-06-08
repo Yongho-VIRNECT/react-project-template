@@ -4,7 +4,7 @@ import MeshBasicNodeMaterial from './MeshBasicNodeMaterial.js';
 import MeshStandardNodeMaterial from './MeshStandardNodeMaterial.js';
 import PointsNodeMaterial from './PointsNodeMaterial.js';
 import SpriteNodeMaterial from './SpriteNodeMaterial.js';
-import { Material } from 'three';
+import { Material } from "@/assets/threejs/build/three.module.js";
 
 export {
 	NodeMaterial,

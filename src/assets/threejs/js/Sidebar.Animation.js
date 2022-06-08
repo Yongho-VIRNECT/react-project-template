@@ -1,4 +1,4 @@
-import { UIPanel, UIBreak, UIButton, UIDiv, UIText, UINumber, UIRow } from './libs/ui.js';
+import { UIPanel, UIBreak, UIButton, UIDiv, UIText, UINumber, UIRow } from '@/assets/threejs/ui/ui.js';
 
 function SidebarAnimation( editor ) {
 

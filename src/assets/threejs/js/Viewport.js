@@ -1,8 +1,8 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { TransformControls } from '../../examples/jsm/controls/TransformControls.js';
+import { TransformControls } from '@/assets/threejs/jsm/controls/TransformControls.js';
 
-import { UIPanel } from './libs/ui.js';
+import { UIPanel } from '@/assets/threejs/ui/ui.js';
 
 import { EditorControls } from './EditorControls.js';
 
@@ -11,11 +11,11 @@ import { ViewportInfo } from './Viewport.Info.js';
 import { ViewHelper } from './Viewport.ViewHelper.js';
 import { VR } from './Viewport.VR.js';
 
-import { SetPositionCommand } from './commands/SetPositionCommand.js';
-import { SetRotationCommand } from './commands/SetRotationCommand.js';
-import { SetScaleCommand } from './commands/SetScaleCommand.js';
+import { SetPositionCommand } from '@/assets/threejs/commands/SetPositionCommand.js';
+import { SetRotationCommand } from '@/assets/threejs/commands/SetRotationCommand.js';
+import { SetScaleCommand } from '@/assets/threejs/commands/SetScaleCommand.js';
 
-import { RoomEnvironment } from '../../examples/jsm/environments/RoomEnvironment.js';
+import { RoomEnvironment } from '@/assets/threejs/jsm/environments/RoomEnvironment.js';
 
 function Viewport( editor ) {
 

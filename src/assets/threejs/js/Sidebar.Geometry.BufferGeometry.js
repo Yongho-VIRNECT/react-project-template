@@ -1,4 +1,4 @@
-import { UIRow, UIText, UISpan, UIBreak, UICheckbox } from './libs/ui.js';
+import { UIRow, UIText, UISpan, UIBreak, UICheckbox } from '@/assets/threejs/ui/ui.js';
 
 function SidebarGeometryBufferGeometry( editor ) {
 

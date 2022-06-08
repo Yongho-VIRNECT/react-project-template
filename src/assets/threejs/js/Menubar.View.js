@@ -1,4 +1,4 @@
-import { UIPanel, UIRow } from './libs/ui.js';
+import { UIPanel, UIRow } from '@/assets/threejs/ui/ui.js';
 
 function MenubarView( editor ) {
 

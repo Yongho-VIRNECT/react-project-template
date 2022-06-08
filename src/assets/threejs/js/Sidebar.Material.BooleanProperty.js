@@ -1,5 +1,5 @@
-import { UICheckbox, UIRow, UIText } from './libs/ui.js';
-import { SetMaterialValueCommand } from './commands/SetMaterialValueCommand.js';
+import { UICheckbox, UIRow, UIText } from '@/assets/threejs/ui/ui.js';
+import { SetMaterialValueCommand } from '@/assets/threejs/commands/SetMaterialValueCommand.js';
 
 function SidebarMaterialBooleanProperty( editor, property, name ) {
 

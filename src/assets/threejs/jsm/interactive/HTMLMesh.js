@@ -6,7 +6,7 @@ import {
 	PlaneGeometry,
 	sRGBEncoding,
 	Color
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class HTMLMesh extends Mesh {
 

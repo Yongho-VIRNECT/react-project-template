@@ -1,5 +1,5 @@
-import { UIPanel } from './libs/ui.js';
-import { APP } from './libs/app.js';
+import { UIPanel } from '@/assets/threejs/ui/ui.js';
+import { APP } from '@/assets/threejs/js/app.js';
 
 function Player( editor ) {
 

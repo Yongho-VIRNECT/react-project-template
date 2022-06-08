@@ -1,9 +1,9 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIButton, UIInput, UIPanel, UIRow, UISelect, UIText, UITextArea } from './libs/ui.js';
+import { UIButton, UIInput, UIPanel, UIRow, UISelect, UIText, UITextArea } from '@/assets/threejs/ui/ui.js';
 
-import { SetMaterialCommand } from './commands/SetMaterialCommand.js';
-import { SetMaterialValueCommand } from './commands/SetMaterialValueCommand.js';
+import { SetMaterialCommand } from '@/assets/threejs/commands/SetMaterialCommand.js';
+import { SetMaterialValueCommand } from '@/assets/threejs/commands/SetMaterialValueCommand.js';
 
 import { SidebarMaterialBooleanProperty } from './Sidebar.Material.BooleanProperty.js';
 import { SidebarMaterialColorProperty } from './Sidebar.Material.ColorProperty.js';

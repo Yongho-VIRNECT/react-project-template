@@ -5,7 +5,7 @@ import {
 	Loader,
 	LoaderUtils,
 	Color
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 /**
  * Description: A THREE loader for PLY ASCII files (known as the Polygon

@@ -1,9 +1,9 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIDiv, UIRow, UIText, UIInteger, UISelect, UICheckbox, UINumber } from './libs/ui.js';
-import { UIPoints3 } from './libs/ui.three.js';
+import { UIDiv, UIRow, UIText, UIInteger, UISelect, UICheckbox, UINumber } from '@/assets/threejs/ui/ui.js';
+import { UIPoints3 } from '@/assets/threejs/ui/ui.three.js';
 
-import { SetGeometryCommand } from './commands/SetGeometryCommand.js';
+import { SetGeometryCommand } from '@/assets/threejs/commands/SetGeometryCommand.js';
 
 function GeometryParametersPanel( editor, object ) {
 

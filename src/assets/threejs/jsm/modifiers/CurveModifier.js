@@ -13,7 +13,7 @@ import {
 	NearestFilter,
 	DynamicDrawUsage,
 	Matrix4
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 /**
  * Make a new DataTexture to store the descriptions of the curves.

@@ -1,4 +1,4 @@
-import { UITabbedPanel } from './libs/ui.js';
+import { UITabbedPanel } from '@/assets/threejs/ui/ui.js';
 
 import { SidebarObject } from './Sidebar.Object.js';
 import { SidebarGeometry } from './Sidebar.Geometry.js';

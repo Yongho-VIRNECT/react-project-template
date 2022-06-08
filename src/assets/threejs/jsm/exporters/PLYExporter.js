@@ -2,7 +2,7 @@ import {
 	Matrix3,
 	Vector3,
 	Color
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 /**
  * https://github.com/gkjohnson/ply-exporter-js

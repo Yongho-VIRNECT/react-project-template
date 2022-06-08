@@ -6,7 +6,7 @@ import {
 	MeshStandardMaterial,
 	PointLight,
 	Scene,
-} from 'three';
+} from "@/assets/threejs/build/three.module.js";
 
 class DebugEnvironment extends Scene {
 

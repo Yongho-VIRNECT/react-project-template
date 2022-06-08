@@ -1,7 +1,7 @@
-import * as THREE from 'three';
+import * as THREE from "@/assets/threejs/build/three.module.js";
 
-import { UIPanel, UIText } from './libs/ui.js';
-import { UIBoolean } from './libs/ui.three.js';
+import { UIPanel, UIText } from '@/assets/threejs/ui/ui.js';
+import { UIBoolean } from '@/assets/threejs/ui/ui.three.js';
 
 function MenubarStatus( editor ) {
 
